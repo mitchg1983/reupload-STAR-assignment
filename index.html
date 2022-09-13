@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star Project</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <div class="app-border app-box">
+        <div class="navbar app-box">
+          <div class="navbar-menu">
+            <p>Count</p>
+            <p>the Stars!</p>
+          </div>
+        </div>
+        <div class="selector-field">
+          <button class="button" onClick="starClick('remove')">
+            Remove a Star
+          </button>
+          <div class="star-rating" id="StarOutput">1</div>
+          <button class="button" onClick="starClick('add')">Add a Star</button>
+        </div>
+        <div class="star-field app-box">
+          <div class="star five-pointed-star glow"></div>
+          <div class="star five-pointed-star glow-off"></div>
+          <div class="star five-pointed-star glow-off"></div>
+          <div class="star five-pointed-star glow-off"></div>
+          <div class="star five-pointed-star glow-off"></div>
+        </div>
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
